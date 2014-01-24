@@ -1,4 +1,8 @@
 Tester::Application.routes.draw do
+
+  root "application#home"
+  get 'home' , to: "application#home"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
