@@ -3,7 +3,27 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-    def home
-  	end
+
+
+  def home
+  end
+
+
+  def tour
+      layout 'tour_layout'
+  end
+
+  def about
+  end
+
+  def pricing
+  end
+
+  def services
+  end
+
+  def contact
+  end
+
   	
 end

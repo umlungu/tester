@@ -180,7 +180,7 @@ VEGAS Home Slider
         
         { src:'img/backgrounds/1.jpg', fade:1000 },
         { src:'img/backgrounds/image2.jpg', fade:1000 },
-        { src:'img/backgrounds/images3.jpg', fade:1000 }
+        { src:'img/backgrounds/image3.jpg', fade:1000 }
         ]
       })('overlay', {
         src:'img/overlays/16.png'
