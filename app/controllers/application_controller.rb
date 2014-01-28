@@ -9,8 +9,8 @@ class ApplicationController < ActionController::Base
   end
 
 
-  def tour
-      layout 'tour_layout'
+  def tour  
+
   end
 
   def about

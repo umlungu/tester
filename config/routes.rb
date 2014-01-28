@@ -2,13 +2,14 @@ Tester::Application.routes.draw do
 
 
   # Landing Page
-  root "application#home"
-
+  #root "application#home"
+  root "tour#tourPage"
   # Other Pages
-  get "tour" , to: "tour#tourPage"
+  #get "tour" , to: "tour#tourPage"
   get "about" , to: "about#aboutPage"
-  get "contact" => "application#contact"
-  get "services" => "application#services"
+  get "contact" => "contact#contactPage"
+  get "services" => "services#servicesPage"
+  get "pricing" => "pricing#pricingPage"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
