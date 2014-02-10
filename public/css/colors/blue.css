@@ -73,6 +73,10 @@ background: #3598db;
 	color:#fff;
 }
 
+#page-contact a>p>i{
+	color: #fff;
+}
+
 #page-contact .spacer{
 	background: #fff;
 }
