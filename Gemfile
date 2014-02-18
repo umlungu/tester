@@ -26,6 +26,9 @@ gem 'jquery-turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+# Heroku Addon New Relic, Performance Monitoring  (actually used to ping site to stop heroku from idling)
+gem 'newrelic_rpm'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
