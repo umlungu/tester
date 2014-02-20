@@ -29,7 +29,8 @@ gem 'jbuilder', '~> 1.2'
 # Heroku Addon New Relic, Performance Monitoring  (actually used to ping site to stop heroku from idling)
 gem 'newrelic_rpm'
 
-
+# Gem to generate sitemaps
+gem "sitemap_generator", "~> 5.0.0"
 
 
 
